@@ -1,0 +1,40 @@
+.background{
+    background: linear-gradient(to right ,blue,navy);
+}
+
+.card-title{
+    font-size: 1rem;
+    height: 60px;
+    border-bottom: 1px solid lightgray;
+}
+.date-source{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+}
+.date-source p{
+    font-size: 0.8rem;
+}
+
+.card-text{
+    height: 150px;
+    font-size: 0.9rem;
+    padding-top: 5px;
+}
+
+@media (max-width: 650px) { 
+    .card-text{
+        height: 100px;
+    }
+ }
+    
+ .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+ }
